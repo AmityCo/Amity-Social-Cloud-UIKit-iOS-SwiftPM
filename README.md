@@ -35,7 +35,7 @@ Once setup below has done, go to official [Amity](https://docs.amity.co/uikit/io
 
 ## Dependencies
 
-AmityUIKit has dependencies with Realm and AmitySDK SDK. Currently we are only able to work with Realm version 5.5.0.
+AmityUIKit has dependencies with Realm and AmitySDK SDK. Currently we are only able to work with Realm version 10.
 
 ## Sample App
 
