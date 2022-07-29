@@ -13,18 +13,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmityUIKit",
-            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.12.0/AmityUIKit.xcframework.zip",
-            checksum: "1e3f2df0eaae894c73f6d5729f79bd4417ed800c79dbe909a54cee9968b22502"
+            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.22.0/AmityUIKit.xcframework.zip",
+            checksum: "43a751fcc3d911ab0fbf18a771729de1078b60f9f9ac8fd5c7ef1f5006092ea5"
         ),
         .binaryTarget(
             name: "AmitySDK",
-            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.12.0/AmitySDK.xcframework.zip",
-            checksum: "232ee5f35491e3f4c60909d48c0159edea78e57a40bb3b0a7539cfc63ba8d3fb"
+            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.22.0/AmitySDK.xcframework.zip",
+            checksum: "c370f91614beb22cd2e49b8c1ef2f139aa6ca254046b11a41064a8f44524a6a7"
         ),
         .binaryTarget(
             name: "Realm",
-            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.12.0/Realm.xcframework.zip",
-            checksum: "cb1c29cb221ee4b71de8ccbc581ab9c1c3047a49d9b2433522268c601d8284b5"
+            url: "https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit-frameworks/2.22.0/Realm.xcframework.zip",
+            checksum: "337709930fdd11ba46e2fcfee539e9e432b18a7fc2deefdbb550df3819734d97"
         )
     ]
 )
