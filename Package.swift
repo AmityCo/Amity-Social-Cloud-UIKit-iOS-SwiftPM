@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "AmityUIKit",
-            targets: ["AmityUIKit", "AmitySDK", "Realm", "RealmSwift", "AmityUIKit4", "AmityLiveKit", "LiveKitWebRTC", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit"])
+            targets: ["AmityUIKit", "AmitySDK", "Realm", "RealmSwift", "AmityUIKit4", "AmityLiveKit", "LiveKitWebRTC", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit"])
     ],
     targets: [
         .binaryTarget(
@@ -25,6 +25,12 @@ let package = Package(
             name: "Realm",
             url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.18.2-xcode26.3/Realm.xcframework.zip",
             checksum: "ab07c7a9c1e1bf573e5e2bd86606d562db3765c6d9ea9c577a899591187806e5"
+        ),
+        .binaryTarget(
+            name: "MobileVLCKit",
+            url:
+                "https://sdk.amity.co/sdk-release/ios-frameworks/6.8.0/MobileVLCKit.xcframework.zip",
+            checksum: "23224e65575cdc18314937efb1af0ce8791f1ed567440e52fb0b6e37621bb9f3"
         ),
         .binaryTarget(
             name: "RealmSwift",
